@@ -1,0 +1,27 @@
+name: Sentry
+version: 1.0
+author: GalaKrond
+main: com.galakrond.sentry.Sentry
+api-version: 1.18
+load: POSTWORLD
+
+commands:
+  getspawner:
+    description: Get Sentry Spawner :D
+    usage: "/<command>"
+
+  addtarget:
+    description: Add Player's new target Entity, Beware _ underbars.  /addtarget Entity AnotherEntity
+    usage: "/<command>"
+
+  removetarget:
+    description: Remove Player's target Entity, /removetarget Entity
+    usage: "/<command>"
+
+  addplayer:
+    description: Add Player's Hostile User Whom Will Attacked by His Sentry. /addplayer Player MorePlayer
+    usage: "/<command>"
+
+  removeplayer:
+    description: Remove Player's Hostile Player in list, /removeplayer Player
+    usage: "/<command>"
